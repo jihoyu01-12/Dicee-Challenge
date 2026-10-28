@@ -1,0 +1,69 @@
+.container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+body {
+  background-color: #393e46;
+  text-align: center;
+}
+
+h1 {
+  width: 100%;
+  min-height: 150px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 5rem;
+  color: #4ecca3;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+.dice img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  display: block;
+  margin: auto;
+}
+
+#rollButton {
+  display: block;
+  margin: 40px auto;
+  padding: 15px 40px;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  background-color: #4caf50;
+  color: white;
+}
+
+#rollButton:hover {
+  background-color: #388e3c;
+}
+
+footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
